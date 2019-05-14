@@ -1,0 +1,92 @@
+#illustration-container {
+    height:50%;
+    margin-top:2em;
+    margin-bottom:1em;
+    width:100%;
+    text-align: center;
+    background-image: url(../imgs/illustrator.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#illustration-display{
+    text-align: center;
+}
+
+#info-buttons {
+    top:-1em
+}
+
+#display-images {
+    width:50%;
+}
+
+#next {
+    width:100px;
+    height:30px;
+    font-family: 'Lato', sans-serif;
+    margin-left:5em;
+    border-radius: 10px;
+}
+
+#previous {
+    width:100px;
+    height:30px;
+    font-family: 'Lato', sans-serif;
+    margin-right:5em;
+    border-radius: 10px;
+}
+
+#info {
+    font-family:'Lato', sans-serif;
+    font-size: 20pt;
+}
+
+
+
+    
+    * {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+/*===========================*/
+/*=========================*/
+/*===   MEDIA QUERIES  ====*/
+/*===========================*/
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

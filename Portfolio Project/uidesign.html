@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>UI/UX Designs</title>
+    
+<link href="css/home.css" rel="stylesheet" type="text/css"/>
+<link href="css/uidesign.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div id="container">
+     <!--    SCROLL TO TOP: TOP-->
+    <div id="top-of-page"></div>
+    
+    
+<!--    SCROLL TO TOP -->
+    
+    <div class="scrolltoTop">
+        <a href="#top-of-page"><img id="top" src="imgs/icons/top.svg" alt="scroll to top"></a>
+    
+    </div>
+      
+    
+    <!-- HAMBURGER MENU  -->
+    
+    <div class="opened-menu">
+    
+             <div class="open-menu-links">
+                 
+                    <div class="menu-links" onclick="location.href='index.html'">Home</div>
+                
+                    <div class="menu-links" onclick="location.href='work.html'">Work</div>
+                
+                    <div class="menu-links" onclick="location.href='about.html'">About</div>
+                
+                    <div class="menu-links" onclick="location.href='contact.html'">Contact</div>
+            
+             </div>
+        
+        
+        </div>
+    
+        <div id="nav-bar">
+            
+            <div class="hamburger">
+            
+                <img onclick="openMenu()" class="ham-menu" src="imgs/icons/menu.svg" alt="hamburger menu icon">
+            
+            </div>
+   
+   <ul id="menu">
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="work.html">Work</a></li>
+               <li><a href="index.html">Home</a></li>
+            </ul> 
+            
+                <div onclick="location.href='index.html'" id="logo-container">
+                    <img id="logo" src="imgs/logo/Logo.svg" alt="logo">
+                </div>
+    
+</div>
+    
+    
+    <div id="ui-header">
+    
+       
+    </div>
+    
+    
+    <!--   BACK BUTTON  -->
+    
+    <div>
+    <button class="back-but" onclick="location.href='work.html'">Back</button>
+ 
+    </div>
+    
+    
+    <div class="ui-info">
+        <h1 class="ui-title">UI/UX Designs</h1>
+        <div class="ui-body">
+        <main class="ui-content">
+            
+            <!-- Each section is flexed: show work -->
+        
+        <div class="sections" id="projects">
+            
+            
+            
+<!-- COOKI APP -->
+            <div class="project" id="cooki" onmouseover="ShowTitle1()" onmouseout="HideTitle1()" onclick="location.href='cooki.html'">
+            <img class="imgs" src="imgs/cookidisplay.jpg" alt="Cooki App project">    
+            <div id="overlay1" class="overlays"><h2>Cooki Web App</h2></div>    
+                
+            </div>
+            
+            
+<!-- BAE GOALS DESIGN -->
+               <div class="project" id="baegoals" onmouseover="ShowTitle2()" onmouseout="HideTitle2()" onclick="location.href='baegoals.html'">
+                   <img id="baegoalimg" src="imgs/baegoalspreview.jpg" alt="baegoals project"> 
+                    <div id="overlay2" class="overlays"><h2>Bae Goals Website </h2></div>
+            </div>
+            
+<!-- WATR ME APP -->
+            <div class="project" id="watrme" onmouseover="ShowTitle3()" onmouseout="HideTitle3()" onclick="location.href='watrme.html'">
+                   <img src="imgs/watrmeimg.jpg" alt="watr me project"> 
+                    <div id="overlay3" class="overlays"><h2>Watr Me App </h2></div>
+            </div>
+            
+        
+            
+            
+            
+        </div>
+    
+        
+        
+        </main>
+        </div>
+        
+        
+        <footer>
+        
+                 <div class="footer-icons">
+             
+             <div class="icon-container">
+             <img class="icon" onclick="location.href='#'" src="imgs/icons/github.png" alt="github"/>
+             <img class="icon" onclick="location.href='#'" src="imgs/icons/linkedin.png" alt="LinkedIn"/>
+             <img class="icon" onclick="location.href='https://www.linkedin.com/in/naomi-okada-designer/'" src="imgs/icons/instaicon.png" alt="LinkedIn"/>
+             </div>
+             <div class="copyrights">&#169; 2019 Naomi Okada Designs | All Rights Reserved</div>
+             </div>
+        
+        
+        </footer>
+        
+    </div>
+    
+
+    
+</div>
+    
+    
+<script src="js/home.js"></script>     
+<script src="js/uidesign.js"></script>     
+    
+</body>
+
+
+</html>

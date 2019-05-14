@@ -1,0 +1,180 @@
+
+
+/* This is the top container header */
+#mg-header {
+    height:50%;
+    width:100%;
+    margin-top:2em;
+    background-image: url(../imgs/motiongraphics.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+p, h2{
+    padding-left:1em;
+    text-align: left;
+}
+
+
+
+.mg-info {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.mg-info p {
+    flex:1;
+}
+
+.mg-title {
+    text-align: center;
+}
+
+mg-body {
+  display: flex;
+  flex: 1;
+}
+
+.mg-content {
+  flex: 1;
+  display:flex;
+  flex-direction: column;
+}
+
+
+.sections {
+    padding:2em;
+    
+}
+
+#description {
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#portfolio-reel {
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#text-animation {
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+
+.project {
+    flex:1;
+    text-align: left;
+}
+
+
+/*BUTTON*/
+
+#viewcooki {
+  margin-top:1em;
+    margin-left:2em;
+    height:35px;
+    width:150px;
+    border:solid 2px #B1C8E0;
+    color:#698CB2;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 10pt;
+    transition: 0.5s;  
+    background-color: #ffffff;
+}
+
+
+
+#viewcooki:hover {
+    background-color: #B1C8E0;
+    border:none;
+    color:#ffffff;
+}
+
+#button-container{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.change-but{
+    margin:5px;
+    height:35px;
+    width:150px;
+    color:#ffffff;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 10pt;
+    transition: 0.5s;  
+    background-color: #698CB2;
+    opacity: 0.7;
+    border: solid 1px #ffffff;
+}
+
+
+
+
+
+/*==============*/
+/*==============*/
+/* MEDIA QUERIES */
+/*==============*/
+/*==============*/
+
+
+/*purple*/
+ @media screen and (max-width: 650px) {
+     
+     
+body {
+} 
+     
+     
+        
+    .sections {
+        flex-direction: column;
+    }
+        
+     
+}
+        
+/* green  */
+@media screen and (max-width: 540px){
+  
+    
+    body {
+    }
+
+       
+    } 
+    
+
+/*yellow*/
+@media screen and (max-width:450px){
+    
+
+
+}
+
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+<meta http-equiv="X-UA-Compatible" content = "ie=edge">
+<title>Naomi Okada | Contact </title>  
+<link href="css/home.css" rel="stylesheet" type="text/css"/>
+<link href="css/contact.css" rel="stylesheet" type="text/css"/>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+
+<!-- FIREBASE-->
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>   
+<script>  
+var firebaseConfig = {
+    apiKey: "AIzaSyBIRJqYFw8wdECAgQ0S2PAlnf2XOn5PyxQ",
+    authDomain: "portfolio-d04c5.firebaseapp.com",
+    databaseURL: "https://portfolio-d04c5.firebaseio.com",
+    projectId: "portfolio-d04c5",
+    storageBucket: "portfolio-d04c5.appspot.com",
+    messagingSenderId: "503389429307",
+    appId: "1:503389429307:web:3ac0a710d44f3cf6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+var db = firebase.firestore();
+    
+</script>    
+    
+    
+</head>
+
+<body>
+    
+    <div id="container">
+        
+        <!--    SCROLL TO TOP: TOP-->
+    <div id="top-of-page"></div>
+    
+    
+<!--    SCROLL TO TOP -->
+    
+    <div class="scrolltoTop">
+        <a href="#top-of-page"><img id="top" src="imgs/icons/top.svg" alt="scroll to top"></a>
+    
+    </div>
+        
+        <!--  BEGINNING OF HAMBURGER MENU  -->
+        
+        <div class="opened-menu">
+            
+            <div class="open-menu-links">
+                    <div class="menu-links" onclick="location.href='index.html'">Home</div>
+                
+                    <div class="menu-links" onclick="location.href='work.html'">Work</div>
+                
+                    <div class="menu-links" onclick="location.href='about.html'">About</div>
+                
+                    <div class="menu-links" onclick="location.href='contact.html'">Contact</div>
+            
+            </div>
+    
+        
+        </div>
+        
+        
+<!--  BEGINNING OF NAVIGATION BAR  -->
+        
+      
+        <div id="nav-bar">
+            
+            <div class="hamburger">
+            
+                <img onclick="openMenu()" class="ham-menu" src="imgs/icons/menu.svg" alt="hamburger menu icon">
+            
+            </div>
+            
+        
+            <ul id="menu">
+               <li><a href="#">Contact</a></li>
+               <li><a href="#" onclick="location.href='about.html'">About</a></li>
+               <li><a href="#" onclick="location.href='work.html'">Work</a></li>
+               <li><a href="index.html" onclick="location.href='index.html'">Home</a></li>
+            </ul> 
+            
+                <div onclick="location.href='index.html'" id="logo-container">
+                    <img id="logo" src="imgs/logo/Logo.svg" alt="logo">
+                </div>
+ 
+        </div>
+    
+        
+
+     <div id="contact-container">
+    <img id="contact-gif" src="imgs/contact.gif" alt="contact me gif">
+
+        </div> 
+        
+    <div id="form-container">
+        
+    <h2>Lets Work Together!</h2>
+        
+    <div class="contact-form"> 
+    <form method="post" action="#">
+        
+    <input class="contact-input" id="first" name="name" type="text" placeholder="* First Name" required="required">
+        
+    <input class="contact-input" id="last" name="name" type="text" placeholder="* Last Name" required="required">
+        
+    <input class="contact-input" id="email" name="name" type="text" placeholder="* Email" required="required">
+        
+    <input class="contact-input" id="business" name="name" type="text" placeholder="Business/Company Name">
+        
+    <textarea id="textarea" placeholder="Send me a message! Lets talk"></textarea>
+        
+    <button id="submit" onclick="addData()">Submit</button>
+        
+  
+    </form>
+        
+    </div>  
+        
+    </div>
+    
+    
+    
+<footer>
+    
+<div class="footer-icons">
+    
+    <div class="icon-container">
+    <img class="icon" onclick="location.href='#'" src="imgs/icons/github.png" alt="github"/>
+    <img class="icon" onclick="location.href='#'" src="imgs/icons/linkedin.png" alt="LinkedIn"/>
+    <img class="icon" onclick="location.href='https://www.linkedin.com/in/naomi-okada-designer/'" src="imgs/icons/instaicon.png" alt="LinkedIn"/>
+    </div>
+    <div class="copyrights">&#169; 2019 Naomi Okada Designs | All Rights Reserved</div>
+    </div>
+        
+</footer>
+    </div>
+    
+<script src="js/home.js"></script>    
+<script src="js/contact.js"></script>    
+    
+</body>
+
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Motion Graphics</title>
+    
+<link href="css/home.css" rel="stylesheet" type="text/css"/>
+<link href="css/motion-graphics.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div id="container">
+    
+    <!--    SCROLL TO TOP: TOP-->
+    <div id="top-of-page"></div>
+    
+    
+<!--    SCROLL TO TOP -->
+    
+    <div class="scrolltoTop">
+        <a href="#top-of-page"><img id="top" src="imgs/icons/top.svg" alt="scroll to top"></a>
+    
+    </div> 
+      
+    
+    <!-- HAMBURGER MENU  -->
+    
+    <div class="opened-menu">
+    
+             <div class="open-menu-links">
+                 
+                    <div class="menu-links" onclick="location.href='index.html'">Home</div>
+                
+                    <div class="menu-links" onclick="location.href='work.html'">Work</div>
+                
+                    <div class="menu-links" onclick="location.href='about.html'">About</div>
+                
+                    <div class="menu-links" onclick="location.href='contact.html'">Contact</div>
+            
+             </div>
+        
+        
+        </div>
+    
+        <div id="nav-bar">
+            
+            <div class="hamburger">
+            
+                <img onclick="openMenu()" class="ham-menu" src="imgs/icons/menu.svg" alt="hamburger menu icon">
+            
+            </div>
+   
+   <ul id="menu">
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="work.html">Work</a></li>
+               <li><a href="index.html">Home</a></li>
+            </ul> 
+            
+                <div onclick="location.href='index.html'" id="logo-container">
+                    <img id="logo" src="imgs/logo/Logo.svg" alt="logo">
+                </div>
+    
+</div>
+    
+    
+    <div id="mg-header">
+        
+    
+       
+    </div>
+    
+<!--   BACK BUTTON  -->
+    
+    <div>
+    <button class="back-but" onclick="location.href='work.html'">Back</button>
+ 
+    </div>
+    
+    <div class="mg-info">
+        <div class="mg-body">
+        <main class="mg-content">
+            
+            <!-- Each section is flexed: show work -->
+        
+        <div class="sections" id="portfolio-reel">
+            <div class="project">
+            <video class="hero-vid" controls playsinline>
+                <source src="imgs/Midterm%20Animation.mp4" type="video/mp4">
+                <source src="imgs/hero-image.otf" type="video/otf">
+                Your browser does not support the video tag.
+            </video>
+
+            </div>
+            
+            <div class="project"><h2>Portfolio Reel</h2><p>This was my final project for my aftereffects/ motion graphics class at BCIT. I decided to make a portfolio reel and showcase my current work I've done. The projects used in this video are:</p>
+            <ul>
+            <li>Pocket Watch | Realistic Drawing/Illustration</li>
+            <li>Dream World/ Underwater Scene | Illustration</li>
+            <li>Building | Illustration</li>
+            <li>Bae Goals | Web Design &amp; Illustrations </li>
+            </ul>
+            
+            </div>
+            </div>
+            
+            
+        <div class="sections" id="description">
+            <div class="project">
+            
+               <video class="hero-vid" controls playsinline>
+                <source src="imgs/text%20animation%20homework.mp4" type="video/mp4">
+                <source src="imgs/text%20animation%20homework.otf" type="video/otf">
+                Your browser does not support the video tag.
+            </video>
+            
+            </div>
+            <div class="project"><h2>Lyric Animation</h2><p>Text/Lyric Video | After Effect/ Motion Graphics Class</p></div>
+        </div>
+            
+            
+        <div class="sections" id="text-animation">
+            <div class="project">
+                
+            <video id="cooki-vids" class="hero-vid" controls playsinline>
+                <source src="imgs/cookilogo.mp4" type="video/mp4">
+                <source src="imgs/cookilogo.otf" type="video/otf">
+                Your browser does not support the video tag.
+            </video>
+            <div id="button-container">  
+            <button class="change-but" onclick="changeVid()">Start Page Animation</button>
+            <button class="change-but" onclick="changeVid2()">Logo Animation</button>
+            <button class="change-but" onclick="changeVid3()">Mixing Animation</button>
+            </div>  
+            
+            </div>
+            <div class="project"><h2>Cooki App Animations</h2><p>Cooki is an interactive cookie recipe generator web app. During BCIT, my group and I designed and developed an app as our final project. These are thee of the animations used. </p>
+            
+            <button id="viewcooki" onclick="location.href='cooki.html'">View Cooki App</button>
+            
+            </div>
+        </div>
+    
+        
+        
+        </main>
+        </div>
+        
+        
+        <footer>
+        
+        <div class="footer-icons">
+             
+             <div class="icon-container">
+             <img class="icon" onclick="location.href='#'" src="imgs/icons/github.png" alt="github"/>
+             <img class="icon" onclick="location.href='#'" src="imgs/icons/linkedin.png" alt="LinkedIn"/>
+             <img class="icon" onclick="location.href='https://www.linkedin.com/in/naomi-okada-designer/'" src="imgs/icons/instaicon.png" alt="LinkedIn"/>
+             </div>
+             <div class="copyrights">&#169; 2019 Naomi Okada Designs | All Rights Reserved</div>
+         </div>
+        
+        
+        </footer>
+        
+    </div>
+    
+
+    
+</div>
+    
+    
+<script src="js/home.js"></script>     
+<script src="js/motion-graphics.js"></script>     
+    
+</body>
+
+
+</html>

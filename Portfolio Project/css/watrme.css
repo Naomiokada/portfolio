@@ -1,0 +1,153 @@
+
+h3 {
+    text-align: center;
+}
+
+/* This is the top container header */
+#watr-header {
+    height:50%;
+    width:100%;
+    margin-top:2em;
+    background-image: url(../imgs/watrmeimg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.watr-info {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.watr-title {
+    text-align: center;
+}
+
+.watr-body {
+  display: flex;
+  flex: 1;
+}
+
+.watr-content {
+  flex: 1;
+  display:flex;
+  flex-direction: column;
+}
+
+
+.sections {
+    padding:2em;
+}
+
+
+#description {
+    background-color:#FCFCFF;
+    display:flex;
+    height:auto;
+}
+
+.text {
+    flex:2;
+    padding-right:2em;
+}
+
+.text2 {
+    flex:1;
+    padding-right:2em;
+}
+
+
+#styleguide {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.watr-img{
+    width:50%;
+    flex:1;
+    
+}
+
+.watr-gif{
+    width:30%;
+    flex:1;
+    
+}
+
+#final-products {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #FCFCFF;
+}
+
+#final-products2 {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+
+/*================*/
+/*================*/
+/* MEDIA QUERIES */
+/*================*/
+
+
+/*purple*/
+ @media screen and (max-width: 650px) {   
+       
+     
+.watr-img{
+    width:80%;
+    
+}
+     
+    .watr-gif{
+    width:50%;
+    
+}
+        
+     
+} 
+        
+/* green  */
+@media screen and (max-width: 540px){
+    
+    
+.watr-img{
+    width:100%;
+    
+}
+    
+    
+    
+    .sections {
+        flex-direction: column;
+    }
+    
+    
+
+       
+    } 
+    
+
+/*yellow*/
+@media screen and (max-width:450px){
+    
+   .watr-gif{
+    width:100%;
+    
+}
+
+}
+
+

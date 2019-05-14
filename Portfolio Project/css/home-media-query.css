@@ -1,0 +1,63 @@
+
+@media screen and (max-width: 830px){
+}
+
+
+/*/////// HAMBURGER MENU APPEARS //////*/  
+  
+/*purple*/
+ @media screen and (max-width: 650px) {
+     
+     
+body {
+/*  background-color: blueviolet;*/
+}       
+     
+     
+#menu li {
+     display:none;
+    }
+    
+.ham-menu {
+    display:inherit;
+    top:12px;
+    position: relative;
+    float: right; 
+    margin-right:2em;
+}
+     
+footer {
+        position:fixed;
+    }
+     
+}
+        
+/* green  */
+@media screen and (max-width: 540px){
+  
+    
+    body {
+/*      background-color: aquamarine; */
+    }
+    
+     footer {
+        position:fixed;
+    }
+
+       
+    } 
+
+/*yellow*/
+@media screen and (max-width:450px){
+    
+    body {
+/*        background-color: lightgoldenrodyellow;*/
+    }
+    
+    footer {
+        position:fixed;
+    }
+
+}
+
+
